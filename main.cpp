@@ -162,16 +162,16 @@ int main() {
                 current = locs[n];
                 cout << "Pereshli v " << n << endl;
             } else {
-                cout << "Nelzya\n";
+                cout << "Nelzya!!!\n";
             }
         }
-        else if (cmd == "otkrit") {
+        else if (cmd == "otkrit:3") {
             int n;
             cin >> n;
             if (locs.find(n) != locs.end() && current->canGoTo(n)) {
                 locs[n]->tryOpen();
             } else {
-                cout << "Nelzya otkrit\n";
+                cout << "Nelzya otkrit!\n";
             }
         }
         else if (cmd == "pomoc") {
