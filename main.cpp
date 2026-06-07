@@ -140,7 +140,7 @@ int main() {
     Location* current = &loc1;
     string cmd;
     
-    cout << "Igra Labirint\n";
+    cout << "Igra Labirint!!!\n";
     cout << "Komandy: osmotret, idti N, otkrit N, pomoc, vihod\n";
     
     while (true) {
